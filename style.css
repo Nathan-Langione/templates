@@ -1,0 +1,61 @@
+*{
+    outline: 1px dotted black;
+    padding: 5px;
+
+
+}
+
+
+div.container{
+    border: 3px solid red;
+    width: 780px;
+    min-height: 500px;
+    background-color: aquamarine;
+}
+
+
+    div.container div.header{
+        border: 3px solid orange;
+        min-height: 50px;
+        
+
+
+    }
+
+
+    div.container div.nav{
+        border: 3px solid yellow;
+        width: 200px;
+        height: 300px;
+        display: inline-block;
+
+    }
+
+
+    div.container div.main{
+        border: 3px solid green;
+        width: 544px;
+        min-height: 300px;
+        display: inline-block;
+        vertical-align: top;
+
+
+    }
+        
+
+        div.container div.main div.box{
+            border: 3px solid blue;
+            width: 200px;
+            min-height: 50px;
+            display:inline-block;
+            text-align: center;
+
+
+        }
+
+    
+    div.container div.footer{
+        border: 3px solid orange;
+        min-height: 50px;
+
+    }
